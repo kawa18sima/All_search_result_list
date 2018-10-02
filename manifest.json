@@ -4,7 +4,10 @@
   "description": "googleの検索結果をすべて表示します。",
   "content_scripts": [
     {
-      "matches": ["https://www.google.co.jp/search?*"],
+      "matches": [
+        "https://www.google.co.jp/search?*",
+        "https://www.google.com/search?*"
+      ],
       "js": [
         "js/background.js"
       ]
