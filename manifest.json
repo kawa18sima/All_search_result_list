@@ -1,0 +1,20 @@
+{
+  "name": "All search result list",
+  "version": "0.1",
+  "description": "googleの検索結果をすべて表示します。",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.co.jp/search?*"],
+      "js": [
+        "js/background.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "manifest_version": 2
+}
